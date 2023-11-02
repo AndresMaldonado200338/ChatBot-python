@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+/* Estilos para el botón de cambio de modo */
+#toggle-mode-button {
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#mode-icon {
+    max-width: 10%;
+    max-height: 30%;
+}
+
+/* Estilos para el contenedor de conversación */
+.conversation-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+form {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#enviar-button {
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+#send-icon {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #333;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto en modo oscuro */
+}
+
+.dark-mode p {
+    color: #fff;
+}
+
+/* Cambiar el fondo del contenedor de conversación a gris en modo oscuro */
+.dark-mode .conversation-container {
+    background-color: #888;
+    /* Cambiar a gris (#888) en modo oscuro */
+}
+
+/* Cambiar el fondo del campo de entrada de texto a gris en modo oscuro */
+.dark-mode input[type="text"] {
+    background-color: #888;
+    color: #fff;
+    /* Cambiar a gris (#888) en modo oscuro */
+}
+
+/* Cambiar el color del marcador de posición (placeholder) a blanco en modo oscuro */
+.dark-mode input[type="text"]::placeholder {
+    color: #fff;
+    /* Cambiar a blanco en modo oscuro */
+}
