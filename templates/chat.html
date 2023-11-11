@@ -8,10 +8,13 @@
 
 <body class="light-mode">
     <header>
-        <h1>MusiTomo Chatbot</h1>
-        <button id="toggle-mode-button">
-            <img id="mode-icon" src="{{ url_for('static', filename='claro-oscuro.png') }}" alt="Cambiar Modo">
-        </button>
+        <img id='logo' src="{{ url_for('static', filename='logo-claro.png') }}" alt="Logo">
+        <div class="header-center">
+            <h1>MusiTomo Chatbot</h1>
+            <button id="toggle-mode-button">
+                <img id="mode-icon" src="{{ url_for('static', filename='claro-oscuro.png') }}" alt="Cambiar Modo">
+            </button>
+        </div>
     </header>
     <div id="conversation" class="conversation-container"></div>
     <form action="/send_message" method="post">

@@ -11,12 +11,30 @@ body {
 header {
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
+/* Estilos para el logo */
+#logo {
+    width: 150px;
+    height: 100px;
+    ;
+}
+
+/* Estilos para los elementos del div */
+.header-center {
+    text-align: center;
+    margin-right: 500px;
+}
+
+/* Estilos para el título */
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #4CAF50;
     font-size: 24px;
+    margin: 0;
 }
 
 /* Estilos para el botón de cambio de modo */
@@ -25,10 +43,11 @@ h1 {
     border: none;
     padding: 0;
     display: block;
-    margin: 0 auto;
+    margin-top: 10px;
     cursor: pointer;
 }
 
+/* Estilos para el icono de cambio de modo */
 #mode-icon {
     max-width: 10%;
     max-height: 30%;
@@ -43,6 +62,7 @@ h1 {
     overflow-y: scroll;
 }
 
+/* Estilos para los mensajes */
 form {
     padding: 10px;
     border-top: 1px solid #ccc;
@@ -50,12 +70,14 @@ form {
     align-items: center;
 }
 
+/* Estilos para el campo de entrada de texto */
 input[type="text"] {
     width: 70%;
     padding: 5px;
     border: 1px solid #ccc;
 }
 
+/* Estilos para el botón de envío */
 #enviar-button {
     background: none;
     border: none;
@@ -67,8 +89,8 @@ input[type="text"] {
     height: 26px;
 }
 
+/* Estilos para el icono de envío */
 #send-icon {
-
     max-width: 100%;
     max-height: 100%;
 }
@@ -76,11 +98,10 @@ input[type="text"] {
 /* Estilos para el modo oscuro */
 .dark-mode {
     background-color: #333;
-    /* Fondo oscuro */
     color: #fff;
-    /* Texto en modo oscuro */
 }
 
+/* Cambiar el color del texto a blanco en modo oscuro */
 .dark-mode p {
     color: #fff;
 }
@@ -88,18 +109,15 @@ input[type="text"] {
 /* Cambiar el fondo del contenedor de conversación a gris en modo oscuro */
 .dark-mode .conversation-container {
     background-color: #888;
-    /* Cambiar a gris (#888) en modo oscuro */
 }
 
 /* Cambiar el fondo del campo de entrada de texto a gris en modo oscuro */
 .dark-mode input[type="text"] {
     background-color: #888;
     color: #fff;
-    /* Cambiar a gris (#888) en modo oscuro */
 }
 
 /* Cambiar el color del marcador de posición (placeholder) a blanco en modo oscuro */
 .dark-mode input[type="text"]::placeholder {
     color: #fff;
-    /* Cambiar a blanco en modo oscuro */
 }

@@ -5,15 +5,18 @@ function toggleMode() {
     isDarkMode = !isDarkMode; // Cambia el valor del modo
     var bodyElement = document.body;
     var modeIcon = document.getElementById("mode-icon");
+    var logo = document.getElementById("logo");
 
     if (isDarkMode) {
         bodyElement.classList.add("dark-mode");
         bodyElement.classList.remove("light-mode");
-        modeIcon.src = "/static/oscuro-claro.png"; // Cambiar la ruta
+        modeIcon.src = "/static/oscuro-claro.png";
+        logo.src = "/static/logo-oscuro.png";
     } else {
         bodyElement.classList.add("light-mode");
         bodyElement.classList.remove("dark-mode");
-        modeIcon.src = "/static/claro-oscuro.png"; // Cambiar la ruta
+        modeIcon.src = "/static/claro-oscuro.png";
+        logo.src = "/static/logo-claro.png";
     }
 }
 
@@ -28,14 +31,22 @@ function updateConversation(message) {
     }
 }
 
-// Agrega un evento al botón de cambio de modo
+// Evento para cambiar el modo cuando se hace clic en el botón
 document.getElementById("toggle-mode-button").addEventListener("click", toggleMode);
 
 // Función para mostrar una alerta cuando se intenta recargar la página
 window.addEventListener("beforeunload", function (e) {
-    e.returnValue = "¿Seguro que deseas recargar la página? Los datos no guardados se perderán.";
+    var confirmationMessage = "¿Seguro que deseas recargar la página? Los datos no guardados se perderán.";
+    if (typeof e === 'undefined') {
+        e = window.event;
+    }
+    if (e) {
+        e.returnValue = confirmationMessage;
+    }
+    return confirmationMessage;
 });
 
+// Evento para manejar el envío del formulario de entrada del usuario y la actualización de la conversación en la página
 document.querySelector("form").onsubmit = function (event) {
     event.preventDefault();
     var user_input = document.querySelector("input[name=user_input]").value;

@@ -29,7 +29,7 @@
                 "Adiós"
             ],
             "bot": [
-                "Adiós, recuerda escribir salir para cerrar el chat."
+                "Adiós, buscame cuando me necesites :)."
             ]
         },
         {
@@ -477,7 +477,7 @@
                 "¿Cuál es el álbum más influyente en la historia del rock?"
             ],
             "bot": [
-                "'Sgt. Pepper's Lonely Hearts Club Band' de The Beatles es ampliamente considerado como uno de los álbumes más influyentes en la historia del rock."
+                "'Sgt. Pepper's Lonely Hearts Club Band' de The Beatles es considerado como uno de los álbumes más influyentes en la historia del rock."
             ]
         },
         {
@@ -510,6 +510,118 @@
             ],
             "bot": [
                 "El violín es el instrumento principal en una orquesta sinfónica y desempeña un papel central en muchas composiciones clásicas."
+            ]
+        },
+        {
+            "usuario": [
+                "Estoy buscando una canción de reguetón para bailar en una fiesta. ¿Algún consejo?"
+            ],
+            "bot": [
+                "¡Claro! \"Baila Baila Baila\" de Ozuna o \"Con Calma\" de Daddy Yankee suelen ser éxitos en la pista de baile."
+            ]
+        },
+        {
+            "usuario": [
+                "¿Cuál es el reguetón más famoso de todos los tiempos?"
+            ],
+            "bot": [
+                "\"Gasolina\" de Daddy Yankee es considerado uno de los reguetones más icónicos y exitosos en la historia del género."
+            ]
+        },
+        {
+            "usuario": [
+                "¿Cuál es el álbum de metal más influyente?"
+            ],
+            "bot": [
+                "'Master of Puppets' de Metallica es considerado uno de los más icónicos, aunque existen muchos más."
+            ]
+        },
+        {
+            "usuario": [
+                "¿Cuales serían las mejores bandas de metal que existen?"
+            ],
+            "bot": [
+                "Bandas como Metallica, Iron Maiden y Slayer son muy populares en el genero...no hay metalero que no los conozca (creo)."
+            ]
+        },
+        {
+            "usuario": [
+                "Ganador del ultimo Grammy como solista"
+            ],
+            "bot": [
+                "Adele fue la ganadora con su sencillo 'Easy on Me', superando a artistas como Lizzo, Harry Styles y Bad Bunny."
+            ]
+        },
+        {
+            "usuario": [
+                "Nombrame 5 grupos de K-pop"
+            ],
+            "bot": [
+                "Estos pueden variar segun los gustos, pues no a todos les gusta lo mismo, pero globalmente, las más relevantes son BTS, Blackink, SEVENTEEN, Stray Kids y Aespa."
+            ]
+        },
+        {
+            "usuario": [
+                "Cuál es la cancion de los worlds 2023"
+            ],
+            "bot": [
+                "'GODS' de NewJeans es la canción oficial para esta edicion de los Worlds 2023."
+            ]
+        },
+        {
+            "usuario": [
+                "Cuál es la cancion con más reproducciones de Michael Jackson"
+            ],
+            "bot": [
+                "'Billie Jean' es la canción de Michael Jackson con más reproducciones."
+            ]
+        },
+        {
+            "usuario": [
+                "Nombrame un opening de anime que se considere histórico"
+            ],
+            "bot": [
+                "'Shinzou wo Sasageyo' de Linked Horizon es una de las canciones más populares actualmente."
+            ]
+        },
+        {
+            "usuario": [
+                "Nombrame openings que sean muy conocidos"
+            ],
+            "bot": [
+                "Unos de los más conocidos son 'A Cruel Angel's Thesis', 'Unravel', 'Again', 'Kaikai Kitan', 'Inferno' y muchos más."
+            ]
+        },
+        {
+            "usuario": [
+                "Cuales serían los iconos del vallenato?"
+            ],
+            "bot": [
+                "Entre los iconos del vallenato podemos destacar a Diomedes Díaz, BInomio de Oro, Patricia Teheran y los Diablitos."
+            ]
+        },
+        {
+            "usuario": [
+                "En Colombia, cuales son los cantantes más famosos"
+            ],
+            "bot": [
+                "Colombia se destaca por su variedad de géneros y claramente hay varios artistas que destacan, por ejemplo: Shakira, Carlos Vives, Feid, Sebastián Yatra, Juanes, J Balvin, Karol G y muchos más."
+            ]
+        },
+        {
+            "usuario": [
+                "Qué canciones le recomendarías a un hombre para ir al gimnasio"
+            ],
+            "bot": [
+                "Si tuviera que recomendarte canciones para el gym, estas serían 'Rosa Pastel' de Belanova, 'Tú no eres para mí' de Fanny Lu, 'Dance Monkey' de Tones and I, 'Dynamite' de BTS, 'Don't Start Now' de Dua Lipa y 'Blinding Lights' de The Weeknd."
+            ]
+        },
+        {
+            "usuario": [
+                "Quién canta la cancion ainsi bas la vida"
+            ],
+            "bot": [
+                "Indila es la artista que canta 'Ainsi bas a Vida' la cual lanzó en 2014 junto con otros exitos como 'Dernière Danse'."
             ]
         }
     ]
